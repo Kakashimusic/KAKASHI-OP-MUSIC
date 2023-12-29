@@ -27,7 +27,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001995543587"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐊𝐀𝐊𝐀𝐒𝐇𝐈𓆩🇽𓆪𝗠𝗨𝗦𝗜𝗖")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6258877205").split())
+    map(int, getenv("OWNER_ID", "6569183877").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
+    "SUPPORT_CHANNEL", "https://t.me/PARI_X_MUSIC_SUPPORT")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/BRANDED_WORLD")
+    "SUPPORT_GROUP", "https://t.me/PARI_X_MUSIC_SUPPORT")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
