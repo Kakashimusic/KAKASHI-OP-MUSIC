@@ -22,9 +22,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001995543587"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝗞𝗛𝗨𝗦𝗛𝗜𓆩🇽𓆪𝗠𝗨𝗦𝗜𝗖")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐊𝐀𝐊𝐀𝐒𝐇𝐈𓆩🇽𓆪𝗠𝗨𝗦𝗜𝗖")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "6258877205").split())
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/WCGKING/BRANDED-KHUSHI-OP-MUSIC",
+    "https://github.com/Kakashimusic/KAKASHI-OP-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
